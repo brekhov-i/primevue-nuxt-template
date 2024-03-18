@@ -10,8 +10,8 @@
 		"postinstall": "nuxt prepare",
 		"lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
 		"lint:prettier": "prettier --check .",
-		"lint": "pnpm lint:js && pnpm lint:prettier",
-		"lintfix": "prettier --write --list-different . && pnpm lint:js --fix"
+		"lint": "npm run lint:js && npm lint:prettier",
+		"lintfix": "prettier --write --list-different . && npm run lint:js --fix"
 	},
 	"dependencies": {
 		"@vueuse/nuxt": "^10.9.0",

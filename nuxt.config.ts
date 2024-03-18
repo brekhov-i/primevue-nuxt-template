@@ -1,4 +1,5 @@
 import path from 'path';
+import locale from '~/presets/profitLiga/locale';
 
 export default defineNuxtConfig({
 	app: {},
@@ -10,6 +11,7 @@ export default defineNuxtConfig({
 		},
 		usePrimeVue: true,
 		importPT: { from: path.resolve(__dirname, './presets/profitLiga/') },
+		locale,
 	},
 	devtools: { enabled: true },
 });
