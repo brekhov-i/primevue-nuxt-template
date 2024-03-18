@@ -1,6 +1,6 @@
 <template>
 	<div class="flex">
-		<Button label="Submit" />
+		<NuxtPage />
 	</div>
 </template>
 

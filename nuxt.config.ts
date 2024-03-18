@@ -8,10 +8,12 @@ export default defineNuxtConfig({
 	primevue: {
 		options: {
 			unstyled: true,
+			locale,
+			inputStyle: 'outlined',
+			ripple: true,
 		},
 		usePrimeVue: true,
 		importPT: { from: path.resolve(__dirname, './presets/profitLiga/') },
-		locale,
 	},
 	devtools: { enabled: true },
 });
