@@ -1,3 +1,5 @@
+import type { PrimeVueLocaleOptions } from 'primevue/config';
+
 export default {
 	accept: 'Да',
 	addRule: 'Добавить правило',
@@ -134,4 +136,4 @@ export default {
 		zoomIn: 'Увеличить',
 		zoomOut: 'Уменьшить',
 	},
-};
+} as PrimeVueLocaleOptions;

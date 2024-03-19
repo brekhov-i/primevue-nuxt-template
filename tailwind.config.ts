@@ -1,3 +1,5 @@
+import type { Config } from 'tailwindcss';
+
 export default {
 	content: [
 		'./presets/**/*.{js,vue,ts}',
@@ -37,4 +39,5 @@ export default {
 			},
 		},
 	},
-};
+	plugins: [],
+} satisfies Config;

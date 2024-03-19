@@ -1,14 +1,14 @@
 import path from 'path';
-import locale from '~/presets/profitLiga/locale';
+import locale from './presets/profitLiga/locale';
 
 export default defineNuxtConfig({
 	app: {},
-	css: ['~/assets/styles/vars.scss', '~/assets/styles/main.scss'],
+	css: ['~/assets/styles/vars.scss'],
 	modules: ['nuxt-primevue', '@nuxtjs/tailwindcss', '@vite-pwa/nuxt'],
 	primevue: {
 		options: {
 			unstyled: true,
-			locale,
+			locale: locale,
 			inputStyle: 'outlined',
 			ripple: true,
 		},
